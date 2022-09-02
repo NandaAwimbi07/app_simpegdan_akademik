@@ -27,7 +27,7 @@
 </div>
 
 <script>
-    document.title = "{{ $title }} | Akademik App";
+    document.title = "{{ $title }} | SimPeg App";
 
     if (!window.jQuery) {
         document.body.innerHTML = "";
