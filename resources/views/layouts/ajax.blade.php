@@ -5,6 +5,9 @@
                 <a href="{{ route('dashboard') }}" class="nav-link" data-toggle="ajax">Dashboard</a>
             </li>
             <li class="nav-item">
+                <a href="{{ route('employee') }}" class="nav-link" data-toggle="ajax">Dosen</a>
+            </li>
+            <li class="nav-item">
                 <a href="{{ route('student') }}" class="nav-link" data-toggle="ajax">Mahasiswa</a>
             </li>
             <li class="nav-item">
@@ -12,9 +15,6 @@
             </li>
             <li class="nav-item">
                 <a href="{{ route('study-program') }}" class="nav-link" data-toggle="ajax">Program Studi</a>
-            </li>
-            <li class="nav-item">
-                <a href="{{ route('employee') }}" class="nav-link" data-toggle="ajax">Dosen</a>
             </li>
         </ul>
     </div>
